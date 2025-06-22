@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Icon from "@/components/ui/icon";
+import RussiaMap from "@/components/RussiaMap";
 
 const Hero = () => {
   return (
@@ -16,7 +17,10 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-4 mb-8">
+        {/* Интерактивная карта России */}
+        <RussiaMap />
+
+        <div className="flex flex-wrap justify-center gap-4 mb-8 mt-8">
           <div className="flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full">
             <Icon name="MapPin" size={20} />
             <span>85 регионов</span>
