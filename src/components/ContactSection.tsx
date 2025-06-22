@@ -78,18 +78,7 @@ const ContactSection = () => {
           </Card>
         </div>
 
-        <div className="mt-12 text-center">
-          <div className="bg-gray-50 rounded-lg p-6 inline-block">
-            <h3 className="font-semibold mb-2 flex items-center justify-center gap-2">
-              <Icon name="Clock" size={20} className="text-orange-500" />
-              Режим работы
-            </h3>
-            <p className="text-gray-600">Круглосуточно, без выходных</p>
-            <p className="text-sm text-gray-500 mt-1">
-              Среднее время подачи: 3-7 минут
-            </p>
-          </div>
-        </div>
+        <div className="mt-12 text-center"></div>
       </div>
     </section>
   );
