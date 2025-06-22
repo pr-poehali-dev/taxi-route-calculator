@@ -15,7 +15,7 @@ const RouteCalculator = () => {
     // Простая симуляция расчета стоимости
     const baseFare = 150;
     const distance = Math.random() * 50 + 5; // 5-55 км
-    const calculatedFare = Math.round(baseFare + distance * 25);
+    const calculatedFare = Math.round(baseFare + distance * 29);
     setFare(calculatedFare);
   };
 
